@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Расписание уроков (10-А класс)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 20px; color: #222; }
+    h1 { text-align: center; margin-bottom: 16px; }
+    table { width: 95%; margin: 0 auto; border-collapse: collapse; }
+    th, td { border: 1px solid #d0d7de; padding: 8px 10px; text-align: center; }
+    thead th { background: #cfe2f3; }
+    tbody tr:nth-child(even) { background: #f9fbfd; }
+    .time { white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <h1>Расписание уроков (10‑А класс)</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Урок</th>
+        <th>Время</th>
+        <th>Понедельник</th>
+        <th>Вторник</th>
+        <th>Среда</th>
+        <th>Четверг</th>
+        <th>Пятница</th>
+        <th>Суббота</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td class="time">08:00–08:45</td>
+        <td>Час будущего</td>
+        <td>IT‑касби таълим</td>
+        <td>Основы права</td>
+        <td>Физика</td>
+        <td>Алгебра</td>
+        <td>Литература</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td class="time">08:50–09:35</td>
+        <td>IT‑касби таълим</td>
+        <td>Англ. язык</td>
+        <td>Немецкий язык</td>
+        <td>Немецкий язык</td>
+        <td>Геометрия</td>
+        <td>Англ. язык</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td class="time">09:40–10:25</td>
+        <td>Немецкий язык</td>
+        <td>Военная подготовка</td>
+        <td>Политология</td>
+        <td>История Узбекистана</td>
+        <td>Русский язык</td>
+        <td>Немецкий язык</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td class="time">10:35–11:20</td>
+        <td>Алгебра</td>
+        <td>Физика</td>
+        <td>Военная подготовка</td>
+        <td>История Узбекистана</td>
+        <td>Узбекский язык</td>
+        <td>IT‑касби таълим</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td class="time">11:25–12:10</td>
+        <td>Немецкий язык</td>
+        <td>Узбекский язык</td>
+        <td>Геометрия</td>
+        <td>История</td>
+        <td>Воспитание</td>
+        <td>IT‑касби таълим</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td class="time">12:15–13:00</td>
+        <td>IT‑касби таълим</td>
+        <td></td>
+        <td></td>
+        <td>Технология ИС</td>
+        <td>Узбекский язык</td>
+        <td>Узбекский язык</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
